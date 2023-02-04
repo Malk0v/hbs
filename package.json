@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "parcel src/*.html",
     "predeploy": "npm run build -- --public-url='/Malk0v/'",
-    "build": "parcel build src/*.html --public-url=/Malk0v/",
+    // "build": "parcel build src/*.html --public-url=/Malk0v/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
