@@ -4,7 +4,6 @@
   "description": "hbs",
   "homepage": "https://github.com/Malk0v/hbs",
   "predeploy": "npm run build --public-url=/hbs/",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
     "predeploy": "npm run build -- --public-url=/hbs/",
