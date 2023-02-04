@@ -578,7 +578,7 @@ const menuMarkup = (0, _menuJsonDefault.default).map(({ image , name , price , d
     <div class="card__content">
       <h2 class="card__name">${name}</h2>
       <p class="card__price">
-        ${price} 
+        ${price}  ye
       </p>
 
       <p class="card__descr"> ${description}</p>
