@@ -1,5 +1,5 @@
 //import menuTpl from '../templates/menu.hbs';
-import menuItems from '../js/menu.json';
+import menuItems from './js/menu.json';
 
 //==== dark theme ====//
 
