@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "hbs",
   "homepage": "https://github.com/Malk0v/hbs",
-  "predeploy": "npm run build --public-url=/hbs/",
+  // "predeploy": "npm run build --public-url=/hbs/",
   "scripts": {
     "dev": "parcel src/*.html",
     "predeploy": "npm run build -- --public-url='/Malk0v/'",
