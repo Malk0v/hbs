@@ -22,7 +22,7 @@ const menuMarkup = menuItems.map(({ image, name, price, description, ingredients
     <div class="card__content">
       <h2 class="card__name">${name}</h2>
       <p class="card__price">
-        ${price} 
+        ${price}  ye
       </p>
 
       <p class="card__descr"> ${description}</p>
