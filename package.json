@@ -4,9 +4,10 @@
   "description": "hbs",
   "homepage": "https://github.com/Malk0v/hbs",
   "predeploy": "npm run build --public-url=/hbs/",
+  "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
-    "predeploy": "npm run build -- --public-url=/hbs/",
+    "predeploy": "npm run build -- --public-url='/hbs/'",
     "build": "parcel build src/*.html --public-url=/hbs/",
     "deploy": "gh-pages -d dist"
   },
